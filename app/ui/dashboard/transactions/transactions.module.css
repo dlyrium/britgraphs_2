@@ -1,0 +1,58 @@
+.container {
+    background: var(--bgSoft);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.title {
+    margin-bottom: 20px;
+    font-weight: 200;
+    color: var(--textSoft);
+    
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding: 10px;
+}
+.userImage {
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.user {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.status {
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 14px;
+    color: white;
+}
+
+.pending {
+    background-color: #f7cb7375;
+}
+.pending:hover {
+    background-color: gold;
+}
+
+.done {
+    background-color: #00960775;
+}
+.done:hover {
+    background-color: green;
+}
+
+.cancelled {
+    background-color: #f7737375;
+}
+.cancelled:hover {
+    background-color: red;
+}

@@ -1,0 +1,75 @@
+.container {
+    background-color: var(--bgSoft);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.addButton {
+    padding: 10px;
+    background-color: #5d57c9;
+    color: var(--text);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.addButton:hover {
+    background-color: #121027;
+}
+
+.table {
+    width: 100%;
+
+}
+
+.table td {
+    padding: 10px;
+}
+
+.table tbody tr:hover {
+    background-color: var(--menuHover);
+}
+
+.user {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.userImage {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: var(--text);
+    border: none;
+    cursor: pointer;
+}
+
+.view {
+    background-color: teal;
+}
+.view:hover {
+    background-color: rgb(0, 49, 49);
+}
+
+.delete {
+    background-color: crimson;
+}
+.delete:hover {
+    background-color: rgb(46, 4, 12);
+}
