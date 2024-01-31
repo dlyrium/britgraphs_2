@@ -128,7 +128,6 @@ export const deleteProduct = async (formData) => {
   try {
     connectToDB();
     await Product.findByIdAndDelete(id);
-    console.log(`${id} should be deleted now`);
   } catch (error) {
     throw new Error("Unable to delete product");
   }
